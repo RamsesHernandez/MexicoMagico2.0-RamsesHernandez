@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Typography } from '@material-ui/core'
-import EmptyCart from './EmptyCart'
-import FilledCart from './FilledCart'
+import EmptyCart from '../EmptyCart/EmptyCart'
+import FilledCart from '../FilledCart/FilledCart'
 import useStyles from './stylesCart'
 
 

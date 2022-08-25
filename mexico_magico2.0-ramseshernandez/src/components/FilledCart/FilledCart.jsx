@@ -1,7 +1,8 @@
 import React from 'react'
 import { Typography, Button, Grid } from '@material-ui/core'
-import useStyles from './stylesCart'
+import useStyles from './stylesFilledCart'
 import CartItem from '../CartItem/CartItem';
+import { Link } from 'react-router-dom';
 
 const FilledCart = ({ cart, updateCartQty, removeFromCart, emptyCart }) => {
     const classes = useStyles();
@@ -18,7 +19,7 @@ const FilledCart = ({ cart, updateCartQty, removeFromCart, emptyCart }) => {
                 <Typography variant="h6">Subtotal: {cart.subtotal.formatted_with_symbol}</Typography>
                 <div>
                     <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={emptyCart}>Vaciar Carrito</Button>
-                    <Button className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Pagar</Button>
+                    <Button component={Link} to='/checkout' className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Pagar</Button>
                 </div>
             </div>
         </>

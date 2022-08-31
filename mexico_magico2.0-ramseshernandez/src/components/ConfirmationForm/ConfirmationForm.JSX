@@ -7,7 +7,7 @@ const ConfirmationForm = () => {
 
   return (
     <div>
-
+      Confirmation
     </div>
   )
 }

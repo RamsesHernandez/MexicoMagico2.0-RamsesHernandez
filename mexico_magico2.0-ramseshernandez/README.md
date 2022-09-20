@@ -10,7 +10,7 @@
 
 ### PARA NO ENTRAR AL CODIGO DE GIT VISITA EL SIGUIENTE SITIO WEB
 
-
+https://mexicomagico.netlify.app/checkout
 
 
 ###Gracias###
